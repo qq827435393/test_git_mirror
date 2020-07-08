@@ -2,7 +2,6 @@
 import datetime
 import os
 import time
-import traceback
 import socket
 import threading
 import paramiko
@@ -21,10 +20,6 @@ class Ssh(object):
                 sshClient_real.set_missing_host_key_policy(paramiko.AutoAddPolicy())
                 if not pub_key:
                     sshClient_real.connect(ip, port, username=username, password=passwd)
-                else:
-                    with open_file_ssh_util(pub_key) as _fp:
-                        key = paramiko.RSAKey.from_private_key(_fp)
-                        sshClient_real.connect(ip, port, username=username, pkey=key)
                 trans = sshClient_real.get_transport()
                 trans.set_keepalive(30)
                 channel = trans.open_session()
@@ -43,7 +38,6 @@ class Ssh(object):
                 return sshClient
 
             except Exception as e:
-                print("traceback info:" + str(traceback.print_exc()))
                 err_msg = 'create ssh client failed. ip:%s, username:%s, port:%s' % (
                 ip, username, port)
                 if not passwd:
@@ -203,6 +197,19 @@ class Ssh(object):
         if 0 == len(listout[-1]):
             listout = listout[:-1]
         return listout
+
+    @classmethod
+    def ssh_close(self, ssh_client):
+        '''关闭SSH连接'''
+        try:
+            if ssh_client and isinstance(ssh_client, dict) and 'client' in ssh_client:
+                ssh_client['client'].close()
+            if ssh_client and isinstance(ssh_client, dict) and 'sshClient' in ssh_client:
+                ssh_client['sshClient'].close()
+        except Exception as e:
+            err_msg = "err"
+            raise err_msg
+
 
 def get_token():
     ssh_util = Ssh()
