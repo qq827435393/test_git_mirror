@@ -1,3 +1,20 @@
 1、【进程间通信】【共享内存】基于共享内存的无锁消息队列设计
   https://blog.csdn.net/Rong_Toa/article/details/101508279
-2、
+2、Git ssh 配置及使用
+  【谷歌搜】
+3、【优秀数据结构学习】-【Linux内核链表实现剖析】
+  https://blog.csdn.net/zhangskd/article/details/7008257
+4、【优秀数据结构学习】-【Linux内核hash链表实现剖析】
+  【结合adsg使用】
+5、【数据包接收系列 — NAPI的原理和实现】
+  https://blog.csdn.net/zhangskd/article/details/21627963
+  http://abcdxyzk.github.io/blog/2015/08/27/kernel-net-napi/
+6、【Linux网络 - 数据包的接收过程】
+  https://segmentfault.com/a/1190000008836467
+7、【数据包接收系列 — 上半部实现（网卡驱动）】
+  https://blog.csdn.net/zhangskd/article/details/22079509
+8、【数据包接收系列 — 上半部实现（内核接口）】
+  https://blog.csdn.net/zhangskd/article/details/22211295
+9、【数据包接收系列 — 下半部实现（软中断）】
+  https://blog.csdn.net/zhangskd/article/details/21469399
+10、
