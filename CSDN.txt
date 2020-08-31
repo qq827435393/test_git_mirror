@@ -1,11 +1,14 @@
-1、【进程间通信】【共享内存】基于共享内存的无锁消息队列设计
-  https://blog.csdn.net/Rong_Toa/article/details/101508279
+1、【进程间通信】https://blog.csdn.net/violet_echo_0908/article/details/51201278
+  1）-【共享内存】基于共享内存的无锁消息队列设计：https://blog.csdn.net/Rong_Toa/article/details/101508279
 2、Git ssh 配置及使用
   【谷歌搜】
-3、【优秀数据结构学习】-【Linux内核链表实现剖析】
-  https://blog.csdn.net/zhangskd/article/details/7008257
-4、【优秀数据结构学习】-【Linux内核hash链表实现剖析】
-  【结合adsg使用】
+3、【优秀数据结构学习】
+  1）-【Linux内核链表实现剖析】
+    https://blog.csdn.net/zhangskd/article/details/7008257
+  2）-【Linux内核hash链表实现剖析】
+    【结合adsg使用】
+  3）-【glib 库 hash table 使用】
+    【结合adsg使用】
 5、【数据包接收系列 — NAPI的原理和实现】
   https://blog.csdn.net/zhangskd/article/details/21627963
   http://abcdxyzk.github.io/blog/2015/08/27/kernel-net-napi/
@@ -17,4 +20,13 @@
   https://blog.csdn.net/zhangskd/article/details/22211295
 9、【数据包接收系列 — 下半部实现（软中断）】
   https://blog.csdn.net/zhangskd/article/details/21469399
-10、
+10、【进程间的通信方式】
+  https://blog.csdn.net/violet_echo_0908/article/details/51201278
+11、【socket】
+  【总结文档】
+12、【linux信号机制】
+  1）-信号是进程间通信机制中唯一的异步通信机制：https://jin-yang.github.io/post/kernel-signal-introduce.html
+  2）-
+13、【Linux线程同步之条件变量】：https://www.cnblogs.com/feisky/archive/2010/03/08/1680950.html；https://www.jianshu.com/p/01ad36b91d39
+14、【深入理解C语言函数指针】：https://www.cnblogs.com/windlaughing/archive/2013/04/10/3012012.html
+15、
