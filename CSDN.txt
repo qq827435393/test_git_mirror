@@ -26,7 +26,7 @@
   【总结文档】
 12、【linux信号机制】
   1）-信号是进程间通信机制中唯一的异步通信机制：https://jin-yang.github.io/post/kernel-signal-introduce.html
-  2）-
+  2）-https://blog.csdn.net/GangStudyIT/article/details/80551912
 13、【Linux线程同步之条件变量】：https://www.cnblogs.com/feisky/archive/2010/03/08/1680950.html；https://www.jianshu.com/p/01ad36b91d39
 14、【深入理解C语言函数指针】：https://www.cnblogs.com/windlaughing/archive/2013/04/10/3012012.html
-15、
+15、中断：https://blog.csdn.net/vividonly/article/details/6609053
