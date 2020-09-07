@@ -30,3 +30,13 @@
 13、【Linux线程同步之条件变量】：https://www.cnblogs.com/feisky/archive/2010/03/08/1680950.html；https://www.jianshu.com/p/01ad36b91d39
 14、【深入理解C语言函数指针】：https://www.cnblogs.com/windlaughing/archive/2013/04/10/3012012.html
 15、中断：https://blog.csdn.net/vividonly/article/details/6609053
+16、时钟中断：https://blog.csdn.net/farmwang/article/details/70173139    https://blog.csdn.net/mafuli007/article/details/7236307
+17、linux进程状态浅析：https://www.cnblogs.com/goaheadnohesitate/p/4813433.html
+18、当 CPU 空闲时它都在做什么？
+19、怎样理解阻塞非阻塞与同步异步的区别？https://www.zhihu.com/question/19732473
+20、linux进程调度浅析：https://blog.csdn.net/vividonly/article/details/6767626
+21、【linux】非实时进程,实时进程, 优先级：https://blog.csdn.net/helloanthea/article/details/28877221   https://www.cnblogs.com/jkred369/p/6731353.html
+【SCHED_FIFO实现了一种简单的先入先出的调度算法，它不使用时间片，但支持抢占，只有优先级更高的SCHED_FIFO或者SCHED_RR进程才能抢占它，否则它会一直执行下去，低优先级的进程不能抢占它，直到它受阻塞或自己主动释放处理器。
+SCHED_RR是带有时间片的一种实时轮流调度算法，当SCHED_RR进程耗尽它的时间片时，同一优先级的其它实时进程被轮流调度，时间片只用来重新调用同一优先级的进程，。。。低优先级的进程决不能抢占SCHED_RR任务，即使它的时间片耗尽。。。。SCHED_RR是带时间片的SCHED_FIFO。】实时进程和普通进程有 运行时间 比例 95:5.
+
+22、
