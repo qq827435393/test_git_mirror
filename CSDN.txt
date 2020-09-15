@@ -46,3 +46,10 @@ SCHED_RR是带有时间片的一种实时轮流调度算法，当SCHED_RR进程�
 22、内核中断，异常，抢占总结篇：https://blog.csdn.net/substitute_coder/article/details/53674339
 23、Linux 中断总结：：https://blog.csdn.net/vividonly/article/details/6327837
 24、--------------------------------------https://www.cnblogs.com/arnoldlu/
+25、Linux用户抢占和内核抢占详解、https://blog.csdn.net/gatieme/article/details/51872618
+
+30、Linux内核之禁止中断和禁止内核抢占  
+  1-https://blog.csdn.net/woshijidutu/article/details/68952702
+  2-https://www.cnblogs.com/aaronLinux/p/5890924.html
+  3-https://blog.csdn.net/wishfly/article/details/264663
+31、如果软中断巨大，用户进程得不到调度？？？
