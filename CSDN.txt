@@ -58,3 +58,4 @@ SCHED_RR是带有时间片的一种实时轮流调度算法，当SCHED_RR进程�
 32、Linux的中断线程化：https://blog.csdn.net/viewsky11/article/details/72780324     https://cloud.tencent.com/developer/article/1589573
 33、Linux进程管理 (篇外)内核线程，简要介绍：https://www.cnblogs.com/arnoldlu/p/8336998.html
 ----------------
+34、为什么中断不能睡眠：https://blog.csdn.net/mihouge/article/details/44198375    https://blog.csdn.net/maray/article/details/5770889
