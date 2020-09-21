@@ -9,9 +9,8 @@
     【结合adsg使用】
   3）-【glib 库 hash table 使用】
     【结合adsg使用】
-5、【数据包接收系列 — NAPI的原理和实现】
-  https://blog.csdn.net/zhangskd/article/details/21627963
-  http://abcdxyzk.github.io/blog/2015/08/27/kernel-net-napi/
+
+
 6、【Linux网络 - 数据包的接收过程】
   https://segmentfault.com/a/1190000008836467
 7、【数据包接收系列 — 上半部实现（网卡驱动）】
@@ -20,21 +19,18 @@
   https://blog.csdn.net/zhangskd/article/details/22211295
 9、【数据包接收系列 — 下半部实现（软中断）】
   https://blog.csdn.net/zhangskd/article/details/21469399
-10、【进程间的通信方式】
-  https://blog.csdn.net/violet_echo_0908/article/details/51201278
+
 11、【socket】
   【总结文档】
-12、【linux信号机制】
-  1）-信号是进程间通信机制中唯一的异步通信机制：https://jin-yang.github.io/post/kernel-signal-introduce.html
-  2）-https://blog.csdn.net/GangStudyIT/article/details/80551912
+
+  
 13、【Linux线程同步之条件变量】：https://www.cnblogs.com/feisky/archive/2010/03/08/1680950.html；https://www.jianshu.com/p/01ad36b91d39
 14、【深入理解C语言函数指针】：https://www.cnblogs.com/windlaughing/archive/2013/04/10/3012012.html
+
 15、中断：https://blog.csdn.net/vividonly/article/details/6609053
 16、时钟中断：https://blog.csdn.net/farmwang/article/details/70173139    https://blog.csdn.net/mafuli007/article/details/7236307
-17、linux进程状态浅析：https://www.cnblogs.com/goaheadnohesitate/p/4813433.html
-18、当 CPU 空闲时它都在做什么？
-19、怎样理解阻塞非阻塞与同步异步的区别？https://www.zhihu.com/question/19732473
-20、linux进程调度浅析：https://blog.csdn.net/vividonly/article/details/6767626
+
+
 21、【linux】非实时进程,实时进程, 优先级：https://blog.csdn.net/helloanthea/article/details/28877221  
 【当系统中有实时进程运行时，普通进程几乎是无法分到时间片的（只能分到5%的CPU时间）】
 https://blog.csdn.net/damontive/article/details/80494997
@@ -53,9 +49,26 @@ SCHED_RR是带有时间片的一种实时轮流调度算法，当SCHED_RR进程�
   1-https://blog.csdn.net/woshijidutu/article/details/68952702
   2-https://www.cnblogs.com/aaronLinux/p/5890924.html
   3-https://blog.csdn.net/wishfly/article/details/264663
-31、如果软中断巨大，用户进程得不到调度？？？是的。在Linux上，中断的优先级比进程高，一旦中断过来普通进程实时进程通通都要让路，让CPU先运行对应的中断处理程序，这就会对实时性造成很大的影响。
------------------------
+
 32、Linux的中断线程化：https://blog.csdn.net/viewsky11/article/details/72780324     https://cloud.tencent.com/developer/article/1589573
 33、Linux进程管理 (篇外)内核线程，简要介绍：https://www.cnblogs.com/arnoldlu/p/8336998.html
 ----------------
 34、为什么中断不能睡眠：https://blog.csdn.net/mihouge/article/details/44198375    https://blog.csdn.net/maray/article/details/5770889
+
+
+=====================================================================================================
+已完成：
+31、如果软中断巨大，用户进程得不到调度？？？是的。在Linux上，中断的优先级比进程高，一旦中断过来普通进程实时进程通通都要让路，让CPU先运行对应的中断处理程序，这就会对实时性造成很大的影响。
+20、linux进程调度浅析：https://blog.csdn.net/vividonly/article/details/6767626
+18、当 CPU 空闲时它都在做什么？
+19、怎样理解阻塞非阻塞与同步异步的区别？https://www.zhihu.com/question/19732473
+12、【linux信号机制】
+  1）-信号是进程间通信机制中唯一的异步通信机制：https://jin-yang.github.io/post/kernel-signal-introduce.html
+  2）-https://blog.csdn.net/GangStudyIT/article/details/80551912
+10、【进程间的通信方式】
+  https://blog.csdn.net/violet_echo_0908/article/details/51201278
+5、【数据包接收系列 — NAPI的原理和实现】
+  https://blog.csdn.net/zhangskd/article/details/21627963
+  http://abcdxyzk.github.io/blog/2015/08/27/kernel-net-napi/ 
+
+
