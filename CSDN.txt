@@ -33,7 +33,7 @@ https://blog.csdn.net/weixin_44062361/article/details/108747752
 ----------------
 34、为什么中断不能睡眠：https://blog.csdn.net/mihouge/article/details/44198375    https://blog.csdn.net/maray/article/details/5770889
 
-
+35、linux在多核处理器上的负载均衡原理：https://blog.csdn.net/21aspnet/article/details/1534304
 =====================================================================================================
 
 已完成：
