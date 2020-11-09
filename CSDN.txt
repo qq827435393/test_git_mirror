@@ -34,6 +34,14 @@ https://blog.csdn.net/weixin_44062361/article/details/108747752
 34、为什么中断不能睡眠：https://blog.csdn.net/mihouge/article/details/44198375    https://blog.csdn.net/maray/article/details/5770889
 
 35、linux在多核处理器上的负载均衡原理：https://blog.csdn.net/21aspnet/article/details/1534304
+
+36、Linux文件系统详解，https://www.cnblogs.com/bellkosmos/p/detail_of_linux_file_system.html
+37、硬盘基本知识（磁头、磁道、扇区、柱面）、https://www.cnblogs.com/jswang/p/9071847.html
+38、利用 sort 和 uniq 做集合运算：https://liam.page/2016/05/05/best-match-using-sort-and-uniq-to-do-set-operations/
+39、linux tools ：https://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/gdb.html
+40、Linux netstat命令详解：·https://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.HTML
+41、数据结构与算法-bitMap和bloomFilter：https://liuhao163.github.io/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-bitMap%E5%92%8CbloomFilter/
+42、
 =====================================================================================================
 
 已完成：
