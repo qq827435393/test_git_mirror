@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<databases NAMES="utf8" version="1.0.22"> 
+	<database dname="max_vpn_admin">
+		<table tname="mvad_protocol" engine="InnoDB" charset="utf8" comment="资源协议表">
+			<cols>
+				<col>
+					<name>protocol_id</name>
+					<type>int</type>
+					<auto_inc></auto_inc>
+				</col>
+				<col default="NOT NULL">
+					<name>name</name>
+					<type>varchar</type>
+					<type_len>16</type_len>
+					<default>""</default>
+					<comment>协议名称</comment>
+				</col>
+			</cols>
+			<keys>
+				<primary_key>protocol_id</p_key>
+				<unique_key indexname="">protocol</u_key>
+			</keys>
+		</table>
+	</database>
+</databases>
+
+<data>
+	<records dname="max_vpn_admin" tname="mvad_protocol">
+		<record>
+			<protocol_id>1</protocol_id>
+			<name>http</name>
+			<protocol>http</protocol>
+			<type>website</type>
+			<port>80</port>
+		</record>
+		<record>
+			<protocol_id>2</protocol_id>
+			<name>https</name>
+			<protocol>https</protocol>
+			<type>website</type>
+			<port>443</port>
+		</record>
+	</records>	
+</data>
+
+
+SET NAMES utf8;
+DROP DATABASE IF EXISTS `max_vpn_admin`;
+CREATE DATABASE `max_vpn_admin`;
+USE `max_vpn_admin`;
+
+drop table if exists mvad_protocol;
+CREATE TABLE mvad_protocol(
+	`protocol_id` int NOT NULL AUTO_INCREMENT,
+	`name` varchar(16) NOT NULL DEFAULT "" COMMENT "协议名称",
+	`protocol` varchar(16) NOT NULL DEFAULT "" COMMENT "协议值",
+	`type` varchar(16) NOT NULL DEFAULT "" COMMENT "类型",
+	`port` int default 0 COMMENT "默认端口",
+	primary key(protocol_id),
+	unique key(`protocol`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT="资源协议表";
+
+
+insert into mvad_protocol set protocol_id=1,`name`="http",`protocol`="http",`type`="website",`port`=80;
+insert into mvad_protocol set protocol_id=2,`name`="https",`protocol`="https",`type`="website",`port`=443;
+
+grant all on *.* to cloudos@localhost identified by 'Max@2018';
